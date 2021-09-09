@@ -78,8 +78,8 @@ IMPORT FOREIGN SCHEMA "orcl"
 
 
 # TODO
-- [] Support tags related to postgres version
-- [] Multiple versions for Oracle_FDW
+- [ ] Support tags related to postgres version
+- [ ] Multiple versions for Oracle_FDW
 
 # References:
 
