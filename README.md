@@ -1,7 +1,7 @@
 # Intro
 
 This project uses Postgres Official buster image to build Oracle_FWD. 
-The image is available in: https://hub.docker.com/r/fusiontecnologia/postgres_fdw_oracle
+The image is available at [Docker HUB](https://hub.docker.com/r/fusiontecnologia/postgres_fdw_oracle)
 
 ## Used versions
 
@@ -74,14 +74,14 @@ IMPORT FOREIGN SCHEMA "orcl"
 	LIMIT TO ("<TABLE_OR_VIEW_NAME>")
 	FROM SERVER oracle_server INTO public; 
 ```
+more info about schema import, take a look at:[PostgreSQL docs](https://www.postgresql.org/docs/10/sql-importforeignschema.html).
 
 
-
-# TODO
+## TODO
 - [ ] Support tags related to postgres version
 - [ ] Multiple versions for Oracle_FDW
 
-# References:
+## References:
 
 Oracle_FWD extension: https://github.com/laurenz/oracle_fdw
 
@@ -91,7 +91,7 @@ References for this docker image build: https://blog.dbi-services.com/connecting
 
 Some kind of inspiration from: https://github.com/guilhermegazzinelli/postgres-oracle-fdw with thanks to @mfvitale
 
-# License
+## License
 MIT License
 
 Copyright (c) 2021 Guilherme Gazzinelli
